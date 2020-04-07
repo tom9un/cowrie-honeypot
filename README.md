@@ -110,5 +110,5 @@
 
 12. Instalasi standar selesai.
 
-        **Please read for optional n modification ==>  https://cowrie.readthedocs.io/en/latest/INSTALL.html**
+        ** Please read for optional n modification  ==>  cowrie-2020.pdf **
 
