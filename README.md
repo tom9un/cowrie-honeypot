@@ -35,9 +35,9 @@
 *       sudo adduser --disabled-password cowrie
         sudo su - cowrie
         
-7. Cloning source code cowrie di account tersebut :
+7. Cloning source code cowrie pada account tersebut :
 
-*       git clone http://153.92.4.68:4445/tomy.gunawan/cowrie-honeypot/  cowrie
+*       git clone https://github.com/tom9un/cowrie-honeypot.git  cowrie
         
 8. Buat Virtual Environment :
 
@@ -55,11 +55,11 @@
         
     *   cari Telnet Specific Options dan rubah enable menjadi true :
 
-    ![Screen_Shot_2020-04-07_at_16.35.15](/uploads/5f3ecef8a5a5c24972af4e28f1a2479e/Screen_Shot_2020-04-07_at_16.35.15.png)
+    <img width="695" alt="Screen Shot 2020-04-07 at 16 35 15" src="https://user-images.githubusercontent.com/33028642/78693598-ac519500-7925-11ea-9fce-7ce1135b50f1.png">
     
     *   rubah hostname, atau yang akan menjadi fake hostname saat attacker masuk ke ssh/telnet :
     
-    ![Screen_Shot_2020-04-07_at_16.34.41](/uploads/2eeddcc2a739c93565fbcc3b846fab1e/Screen_Shot_2020-04-07_at_16.34.41.png)
+    <img width="647" alt="Screen Shot 2020-04-07 at 16 34 41" src="https://user-images.githubusercontent.com/33028642/78693652-bffcfb80-7925-11ea-9533-b822111b3c56.png">
         
 10. Memulai cowrie :
 
@@ -70,12 +70,12 @@
 
 *       netstat -an
 
-    ![Screen_Shot_2020-04-07_at_16.30.12](/uploads/828e9925a7384334be270d3832123453/Screen_Shot_2020-04-07_at_16.30.12.png)
+    <img width="801" alt="Screen Shot 2020-04-07 at 16 30 12" src="https://user-images.githubusercontent.com/33028642/78693703-d440f880-7925-11ea-8b2b-5b575b0ab754.png">
 
     *   Simulasi akses SHH dan Telnet :
    
-    ![Screen_Shot_2020-04-07_at_16.32.52](/uploads/084791aead7c43bd5230928840e9c0a4/Screen_Shot_2020-04-07_at_16.32.52.png)
-    ![Screen_Shot_2020-04-07_at_16.31.20](/uploads/286b29663f6fbe23c89bca8c9932a979/Screen_Shot_2020-04-07_at_16.31.20.png)
+    <img width="569" alt="Screen Shot 2020-04-07 at 16 32 52" src="https://user-images.githubusercontent.com/33028642/78693770-eb7fe600-7925-11ea-8686-0d83289d932a.png">
+    <img width="571" alt="Screen Shot 2020-04-07 at 16 31 20" src="https://user-images.githubusercontent.com/33028642/78693805-f6d31180-7925-11ea-86ee-410da07477c5.png">
         
    
 11. Menjalankan saat startup menggunakan supervisord :
